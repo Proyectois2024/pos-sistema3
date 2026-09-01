@@ -47,10 +47,10 @@ class MYPDF extends TCPDF {}
 $pdf = new MYPDF("P", "mm", "LETTER", true, "UTF-8", false);
 
 $pdf->SetCreator("POS");
-$pdf->SetAuthor("Agropecuaria Chonay");
+$pdf->SetAuthor("SISTEMA POS");
 $pdf->SetTitle("Cotización ".$codigo);
 $pdf->SetSubject("Cotización");
-$pdf->SetKeywords("cotizacion, agropecuaria, chonay");
+$pdf->SetKeywords("cotizacion, sistema, pos");
 
 $pdf->setPrintHeader(false);
 $pdf->setPrintFooter(false);
@@ -87,7 +87,7 @@ if(file_exists($logoPath)){
 /* TITULO */
 $pdf->SetXY(60, 18);
 $pdf->SetFont("helvetica", "B", 16);
-$pdf->Cell(90, 8, "AGROPECUARIA CHONAY", 0, 1, "C");
+$pdf->Cell(90, 8, "SISTEMA POS", 0, 1, "C");
 
 /* TEXTO DEBAJO DEL TITULO */
 $pdf->SetX(60);
@@ -95,10 +95,10 @@ $pdf->SetFont("helvetica", "", 11);
 $pdf->Cell(90, 6, "Barrio el Centro, Dolores, Peten", 0, 1, "C");
 
 $pdf->SetX(60);
-$pdf->Cell(90, 6, "Tel: 40268325", 0, 1, "C");
+$pdf->Cell(90, 6, "Tel: ", 0, 1, "C");
 
 $pdf->SetX(60);
-$pdf->Cell(90, 6, "agropecuariachonay16@gmail.com", 0, 1, "C");
+$pdf->Cell(90, 6, "CORREO", 0, 1, "C");
 
 
 /* =============================
@@ -241,7 +241,7 @@ $pdf->Line(122, $yFirmas, 172, $yFirmas);
 
 $pdf->Ln(3);
 $pdf->SetFont("helvetica", "B", 9);
-$pdf->Cell(78, 6, "AGROPECUARIA CHONAY", 0, 0, "C");
+$pdf->Cell(78, 6, "sistema pos", 0, 0, "C");
 $pdf->Cell(10, 6, "", 0, 0, "C");
 $pdf->Cell(78, 6, "RECIBIDO POR CLIENTE", 0, 1, "C");
 
@@ -251,7 +251,7 @@ $pdf->Cell(78, 6, "RECIBIDO POR CLIENTE", 0, 1, "C");
 $pdf->Ln(10);
 $pdf->SetFont("helvetica", "I", 9);
 $pdf->SetTextColor(80, 80, 80);
-$pdf->Cell(0, 6, "AGROPECUARIA CHONAY, SOMOS ASESORIA TECNICA RESPONSABLE...", 0, 1, "C");
+$pdf->Cell(0, 6, "SOMOS ASESORIA TECNICA RESPONSABLE...", 0, 1, "C");
 
 if(ob_get_length()){
     ob_end_clean();
