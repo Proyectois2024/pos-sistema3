@@ -188,10 +188,10 @@ body{
 
         <td style="width:56%; padding-top:8px;">
             <div class="empresa">
-                <div class="empresa-titulo">AGROPECUARIA CHONAY</div>
+                <div class="empresa-titulo">SISTEMA POS</div>
                 <div class="empresa-linea">Barrio el Centro, Dolores, Peten</div>
-                <div class="empresa-linea">Tel: 40268325</div>
-                <div class="empresa-linea">agropecuariachonay16@gmail.com</div>
+                <div class="empresa-linea">Tel: </div>
+                <div class="empresa-linea">@gmail.com</div>
             </div>
         </td>
 
@@ -286,7 +286,7 @@ body{
         <tr>
             <td style="width:50%; text-align:center;">
                 <div class="sign-line"></div>
-                <div class="sign-name">AGROPECUARIA CHONAY</div>
+                <div class="sign-name">SISTEMA POS</div>
             </td>
             <td style="width:50%; text-align:center;">
                 <div class="sign-line"></div>
@@ -296,7 +296,7 @@ body{
     </table>
 
     <div class="note">
-        AGROPECUARIA CHONAY, SOMOS ASESORIA TECNICA RESPONSABLE...
+        , SOMOS ASESORIA TECNICA RESPONSABLE...
     </div>
 
 </div>
