@@ -178,8 +178,8 @@ body{
         <tr>
             <td class="banner">
                 <div class="banner-top">
-                    <div class="banner-title">ANGUS COMPANY</div>
-                    <div class="banner-sub">AGRICOLA NUTRICION Y VETERINARIA DE GUATEMALA</div>
+                    <div class="banner-title">SISTEMA POS</div>
+                    <div class="banner-sub"> GUATEMALA</div>
                 </div>
                 <div class="banner-bottom">Calidad y servicios</div>
             </td>
