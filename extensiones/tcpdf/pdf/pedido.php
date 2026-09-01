@@ -43,10 +43,10 @@ class MYPDF extends TCPDF {}
 $pdf = new MYPDF("P", "mm", "LETTER", true, "UTF-8", false);
 
 $pdf->SetCreator("POS");
-$pdf->SetAuthor("Angus Company");
+$pdf->SetAuthor("Sistema POS");
 $pdf->SetTitle("Pedido ".$codigo);
 $pdf->SetSubject("Pedido");
-$pdf->SetKeywords("pedido, angus, company");
+$pdf->SetKeywords("pedido, Sistema, POS");
 
 $pdf->setPrintHeader(false);
 $pdf->setPrintFooter(false);
@@ -68,10 +68,10 @@ $pdf->Rect(18, 22, 120, 16, "F");
 $pdf->SetXY(18, 22);
 $pdf->SetFont("helvetica", "BU", 20);
 $pdf->SetTextColor(51, 102, 204);
-$pdf->Cell(120, 8, "ANGUS COMPANY", 0, 2, "C");
+$pdf->Cell(120, 8, "SISTEMA POS", 0, 2, "C");
 
 $pdf->SetFont("helvetica", "I", 9);
-$pdf->Cell(120, 4, "AGRICOLA NUTRICION Y VETERINARIA DE GUATEMALA", 0, 2, "C");
+$pdf->Cell(120, 4, "Los Mejores Productos", 0, 2, "C");
 
 $pdf->SetFillColor(255, 255, 0);
 $pdf->Rect(18, 38, 120, 5, "F");
